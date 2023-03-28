@@ -1,0 +1,65 @@
+* { 
+    margin:0;
+    padding: 0;
+}
+
+a, a:link, a:visited, a:active {
+    text-decoration: none !important;
+}
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header {
+    background:  #427276;
+    color: #fff;
+    text-align: center;
+    padding:10px;
+}
+
+
+.container {
+ max-width: 1240px;
+ width: calc(100% - 30px);
+ margin:0 auto;
+ padding: 15px;
+}
+
+
+.form input, form button, form select { 
+    padding: 10px !important;
+}
+
+.form .btn-clean{
+    margin:2px 2px;
+    background:#a05d49
+}
+
+.d-flex { display: flex; }
+.align-items-center { align-items: center;}
+.justify-content-end { justify-content: end;}
+
+.divTable > table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0 0;
+}
+
+.divTable > table td, .divTable > table th { 
+    border:1px solid #c1c1c1;
+    padding: 5px;
+}
+
+.divTable > table > thead th { 
+    background: #427276;
+    color:#fff;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.divTable > table > tbody tr:nth-child(odd) { 
+    background: #42727653;
+}
